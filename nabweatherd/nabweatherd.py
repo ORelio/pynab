@@ -138,6 +138,7 @@ class NabWeatherd(NabInfoService):
         "Ciel voilé nuit": ("cloudy", CLOUDY_INFO_ANIMATION),
         "Très nuageux": ("cloudy", CLOUDY_INFO_ANIMATION),
         "Couvert": ("cloudy", CLOUDY_INFO_ANIMATION),
+        "Variable": ("cloudy", CLOUDY_INFO_ANIMATION),
         "Rares averses": (
             "rainy",
             RAINY_INFO_ANIMATION,
